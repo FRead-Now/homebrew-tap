@@ -3,8 +3,8 @@ class AbookUtils < Formula
 
   desc "FRead's audiobook tool: find, fetch, trim and align LibriVox recordings"
   homepage "https://github.com/FRead-Now/abook-utils"
-  url "https://github.com/FRead-Now/abook-utils/releases/download/v0.2.0/abook-utils-0.2.0.tar.gz"
-  sha256 "871556cebcb8d70e7d20838c9f7ee3e1146a8f5e639cafde8f6267001cd2deb5"
+  url "https://github.com/FRead-Now/abook-utils/releases/download/v0.2.1/abook-utils-0.2.1.tar.gz"
+  sha256 "0d748321755f0f0f8218881a8cb9706d6d238a7ad0ea3b2cd09141473ea8ed5c"
 
   depends_on "uv" => :build
   depends_on arch: :arm64
