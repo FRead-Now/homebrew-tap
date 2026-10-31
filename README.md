@@ -12,4 +12,13 @@ Installs FRead's editor tools, fux and FRead's fux snippet library. See
 [fread-tools](https://github.com/FRead-Now/fread-tools) for what they are and
 how they are matched to the catalog.
 
-`Formula/fread-tools.rb` is written by each release; hand edits are overwritten.
+Audio editors, on Apple Silicon Macs, also install abook:
+
+```sh
+brew install fread-now/tap/abook-utils
+```
+
+See [abook-utils](https://github.com/FRead-Now/abook-utils).
+
+`Formula/fread-tools.rb` and `Formula/abook-utils.rb` are written by each
+release; hand edits are overwritten.
