@@ -1,27 +1,27 @@
 class FreadTools < Formula
   desc "FRead's editor tools: the ingest commands, fread-admin and fux snippets"
   homepage "https://github.com/FRead-Now/fread-tools"
-  version "0.3.1"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.3.1/fread-tools-0.3.1-darwin-arm64.tar.gz"
-      sha256 "76a4b8fb09b8f4ba078aafec3eca3831a8aaec77f0a32f16c8bd9e63ef164519"
+      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.4.0/fread-tools-0.4.0-darwin-arm64.tar.gz"
+      sha256 "1e04c6856f62aff31ab9ad063a19504212e4be3e62ad0f464c073aea20a924c4"
     end
     on_intel do
-      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.3.1/fread-tools-0.3.1-darwin-amd64.tar.gz"
-      sha256 "c36d7d81bfa31f5f164068c4486abc0f18e4636e1e9190f3b8a65010654a5685"
+      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.4.0/fread-tools-0.4.0-darwin-amd64.tar.gz"
+      sha256 "8f95e84b573aa8c42f0fcd7f9934bba0bce2f57477366a295688665740cd740b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.3.1/fread-tools-0.3.1-linux-arm64.tar.gz"
-      sha256 "c7b83b1bea75b52a506341f4ba6eedcbf4b121c758399a24216e171a5c03f296"
+      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.4.0/fread-tools-0.4.0-linux-arm64.tar.gz"
+      sha256 "9045a6394ef3c3e131919bec153f38e5fd28a5e7ba302a1380373520e1486feb"
     end
     on_intel do
-      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.3.1/fread-tools-0.3.1-linux-amd64.tar.gz"
-      sha256 "98b78f1b1f069adeccc14ed052356f11ae4b934a221487b532dfd3a85276e86c"
+      url "https://github.com/FRead-Now/fread-tools/releases/download/v0.4.0/fread-tools-0.4.0-linux-amd64.tar.gz"
+      sha256 "3d55a145974777fa78afc08d663054a3ff5e0f8f07009716f01c103cc08dae75"
     end
   end
 
